@@ -17,9 +17,11 @@ inputs:
   model:
     description: "Model to use (provider-specific format required for Bedrock/Vertex)"
     required: false
+    default: "claude-sonnet-4-20250514"
   anthropic_model:
     description: "DEPRECATED: Use 'model' instead. Model to use (provider-specific format required for Bedrock/Vertex)"
     required: false
+    default: "claude-sonnet-4-20250514"
   allowed_tools:
     description: "Additional tools for Claude to use (the base GitHub tools will always be included)"
     required: false
